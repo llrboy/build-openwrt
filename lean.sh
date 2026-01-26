@@ -306,6 +306,8 @@ add_custom_packages() {
 
     # 基础插件
     git_clone https://github.com/sbwml/packages_lang_golang golang
+    git clone https://github.com/nhhqgirl/luci-app-onliner.git package/lean/luci-app-onliner
+    git clone https://github.com/nhhqgirl/luci-app-poweroff.git package/lean/luci-app-poweroff
 
 
     # 科学上网插件
