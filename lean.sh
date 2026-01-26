@@ -316,6 +316,7 @@ add_custom_packages() {
 
     # Themes
     git_clone 18.06 https://github.com/jerrykuku/luci-theme-argon
+    clone_dir https://github.com/haiibo/packages luci-theme-opentomcat
 
 
     # 修复Makefile路径
